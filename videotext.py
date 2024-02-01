@@ -26,7 +26,7 @@ def video_to_text(video_file):
 # Penggunaan Streamlit
 st.title("Konversi Video ke Teks")
 
-video_path = st.text_input("Masukkan path video (Misal: D:\\S2\\AI PROJECT\\homework\\ganjarp.mp4):")
+video_path = st.text_input("Masukkan path video")
 
 if st.button("Konversi Video"):
     if video_path:
